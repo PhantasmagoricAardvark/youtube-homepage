@@ -65,7 +65,7 @@ table {
 }
 
 .sidebar {
-	background-color: black;
+	background-color: #fff;
 	width: 40%;
 	height: 45vw;	
 }
@@ -87,7 +87,7 @@ table {
 }
 
 .video {
-	margin: 2% auto;
+	margin: 1.3vw auto;
 	display: block;
 }
 
@@ -97,4 +97,25 @@ table {
 	top: 50%;
 	transform: translateY(-50%); 
 	margin-left: 6%;
+}
+
+.sidebar div {
+	margin-top: 1.3vw;
+	font-size: 0.95rem;
+}
+
+.videos {
+}
+
+.videos h2 {
+	margin-bottom: 0.7vw;
+	font-weight: bolder;
+}
+
+.videos img {
+	float: left;
+}
+
+.videos span {
+	color: rgba(17,17,17,0.6);
 }
