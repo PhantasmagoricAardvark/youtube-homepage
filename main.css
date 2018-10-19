@@ -104,18 +104,37 @@ table {
 	font-size: 0.95rem;
 }
 
-.videos {
+.video1 {
+	width: 90%;
+	height: 20%;
 }
 
-.videos h2 {
+.video1 h2 {
 	margin-bottom: 0.7vw;
-	font-weight: bolder;
+	letter-spacing: -0.4px;
 }
 
-.videos img {
+.video1 img {
 	float: left;
+	margin-right: 2%; 
+
 }
 
-.videos span {
+.video1 span {
 	color: rgba(17,17,17,0.6);
+	font-size: 0.8rem;
+	line-height: 1.1rem;
+}
+
+.time {
+	position: absolute;
+	padding: 2px 4px;
+	background-color: black;
+	color: white;
+	top: 24%;
+	right: 24%;
+}
+
+#vid1 {
+	border-bottom: 1px solid #ededed;
 }
