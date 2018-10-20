@@ -89,6 +89,7 @@ table {
 .video {
 	margin: 1.3vw auto;
 	display: block;
+	margin-bottom: 0;
 }
 
 .yt {
@@ -107,6 +108,7 @@ table {
 .video1 {
 	width: 90%;
 	height: 20%;
+	margin-bottom: 1.3vw; 
 }
 
 .video1 h2 {
@@ -137,4 +139,23 @@ table {
 
 #vid1 {
 	border-bottom: 1px solid #ededed;
+}
+
+#vid2 {
+	margin: 0;
+	height: 17%;
+}
+
+.vid-title {
+	width: 93%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.vid-title span {
+	display: block;
+}
+
+.title {
+
 }
