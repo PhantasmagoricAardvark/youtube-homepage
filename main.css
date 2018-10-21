@@ -147,15 +147,30 @@ table {
 }
 
 .vid-title {
-	width: 93%;
+	width: 93.5%;
 	margin: 0 auto;
 	margin-top: 20px;
+	height: 11%;
+	border-bottom: 1px solid #ededed;
 }
 
 .vid-title span {
 	display: block;
 }
 
-.title {
+.views {
+	color: rgba(17,17,17,0.6);
+	font-size: 0.95rem;
+}
 
+.vid-description {
+	width: 93.5%;
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 11%;
+}
+
+.vid-description img {
+	border-radius: 100%;
+	float: left;
 }
