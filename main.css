@@ -167,10 +167,53 @@ table {
 	width: 93.5%;
 	margin: 0 auto;
 	margin-top: 20px;
-	height: 11%;
+	height: 22.6%;
 }
 
 .vid-description img {
 	border-radius: 100%;
 	float: left;
+}
+
+.vid-description span {
+	font-size: 0.8rem;
+	margin-left: 1%;
+	line-height: 130%;
+	color: rgba(17,17,17,0.6);
+	position: absolute;
+	margin-top: 0.5%;
+}
+
+#channel {
+	color: black;
+	font-weight: bold;
+}
+
+.subscribe {
+	height: 10%;
+	width: 10%;
+	background-color: red;
+	display: inline;
+	position: relative;
+	left: 72.2%;
+	padding: 10px 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 0.8rem; 
+}
+
+.subscribe span {
+	position: inherit;
+	display: inherit;
+	font-weight: inherit;
+	font-size: inherit; 
+	color: rgba(255,255,255,0.85);
+}
+
+#category, #category-name {
+	position: unset;
+	display: inline-block;
+	margin-top: 5%;
+	margin-left: 1.7%;
+	margin-right: ; 
 }
