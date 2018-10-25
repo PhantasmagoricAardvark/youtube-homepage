@@ -73,7 +73,6 @@ table {
 .search {
 	width: 39vw;
 	margin-left: 25%;
-	margin-top: 1%; 
 	border: 1px solid gray;
 	padding: 0.5vw;
 	height: 1vw; 
@@ -81,10 +80,14 @@ table {
 
 .search-button {
 	position: relative;
-	left: -0.1%;
+	left: -1%;
 	width: 4vw;
 	height: 2.1vw;
 	border: 1px solid gray;
+}
+
+input {
+	margin-top: 1vw;
 }
 
 .video {
